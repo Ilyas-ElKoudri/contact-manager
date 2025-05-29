@@ -24,23 +24,3 @@ Built using **PHP**, **MySQL**, and **Bootstrap**. Includes JavaScript confirmat
 | Database     | MySQL                            |
 | Development  | VS Code, XAMPP                   |
 
----
-
-## 🗂 Project Structure
-
----
-
-## 💾 Database Setup
-
-1. Open [phpMyAdmin](http://localhost/phpmyadmin)
-2. Create a database: `contact_db`
-3. Run the following SQL:
-   ```sql
-   CREATE TABLE contacts (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       nom VARCHAR(100) NOT NULL,
-       prenom VARCHAR(100) NOT NULL,
-       telephone VARCHAR(20) NOT NULL,
-       email VARCHAR(100) NOT NULL
-   );
-
